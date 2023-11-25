@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,400;1,500&family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@300;500;600&family=Raleway:wght@500;600;800&family=Roboto+Condensed:wght@700;800;900&family=Roboto+Slab:wght@200;300;400;500;600;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar-section nav img {
+    width: 187px;
+    height: 32px;
+    padding-top : 3px ;
+}
+
+.first-page {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+   
+}
+
+.navbar-section  {
+    padding: 24px 0;
+    
+    
+}
+
+.nav-container {
+    margin: 0 100px;
+    padding: 0 12px;
+    display: flex;
+    flex-direction: row;
+
+}
+.navbar-section .navbar-list {
+    margin-left: auto;
+    
+}
+
+.navbar-ul {
+    display: flex;
+    flex-grow: 1;
+}
+
+.navbar-section nav li {
+    text-decoration: none;
+    display: flex;
+    padding: 8px;
+    word-spacing: 10px;
+    
+  
+}
+.navbar-section nav li a {
+    text-decoration: none;
+    color:#fff ;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding: 8px;
+    
+    
+    
+
+
+}
+
+.navbar-section nav a:hover {
+    color:#ffc800;
+}
+
+
+.header-section .section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 180px;
+    padding-bottom: 90px;
+    
+    
+    
+}
+
+.section-1 h3 {
+    margin: 0 0 32px;
+    font-size:36px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    
+}
+
+.section-1 h1 {
+    margin: 0 0 64px;
+    font-size: 64px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.section-1 button {
+    background-color: #ffc800;
+    color: #ffffff;
+    padding: 20px 40px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    border-radius: 6px;
+    border:none;
+    margin-bottom: 100px;
+
+}
+
+.section-1  button:hover {
+    background-color:#cfa301;
+    cursor: pointer;
+}
+
+
+.second-page {
+    background-color:#fdfefe;
+    text-align: center;
+    margin: 10px 40px;
+
+    
+}
+
+.second-page-heading .sec-p-services{
+    margin: 20px 10px;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+.second-page-content {
+    display: flex;
+    gap: 20px;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 0 100px;
+   
+   
+}
+
+
+
+.second-page p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    color:#818286;
+    font-style: italic;
+    line-height: 1.8em;
+    margin-top:10px;
+
+}
+
+.second-page-content p {
+    font-style: normal;
+}
+
+.second-page-heading {
+    text-align: center;
+}
+.second-page-heading h2 {
+    font-size: 40px;
+}
+
+.second-page h2, .second-page h3 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.second-page h3 {
+    font-size: 24px;
+    color:#212529;
+}
+
+.yellow-icon {
+    width: 128px;
+    height: 128px;
+    background-color:#ffc800;
+    border-radius: 50%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.yellow-icon i {   
+    color: #fff ;
+    font-size: 4em;
+    text-align: center;
+    
+    
+    
+}
+
+.third-page {
+    background-color:#f8f9fa;
+    margin: 40px 0;
+    padding: 48px 0;
+    
+}
+
+.third-page-heading {
+    text-align: center;
+}
+
+.third-page p {
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    color:#6c757d;
+    font-style: italic;
+
+}
+
+.third-page-images img {
+    width: 415px;
+    height: 315px; 
+
+}
+
+.third-page h2 , .third-page h4 {
+    font-family: 'Montserrat', sans-serif;
+    color:#212529;
+
+}
+
+.third-page h2 { 
+    margin-bottom: 20px;
+    font-size:40px ;
+}
+
+.third-page h4 {
+    font-size: 24px;
+}
+
+.third-page-images-down {
+    width: 415px;
+    height: 108px;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.all-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 96px 80px;
+    
+}   
+
+.third-page-images .image-hover:hover {
+    background:#ffc800c6;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    opacity: 30% ;
+
+}
+
+.fourth-page {
+    text-align: center;
+}
+
+.fourth-page .fourth-page-heading {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.fourth-page .fourth-page-heading h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif ;
+    text-transform: uppercase;
+    
+}
+
+.fourth-page .fourth-page-heading p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    color:#6c757d;
+    font: 300;
+}
+
+.fourth-page-list {
+    position: relative;
+
+}
+
+.about-list-image img {
+    border: 8px solid #e9ecef;
+}
+
+.fourth-page-list .about-list-image img, .about-last-yellow {
+    border-radius:50%;
+    width: 170px;
+    height: 170px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.fourth-page-list .about-list-content h4{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif ;
+    margin: 0 0 8px;
+    letter-spacing: 4;
+}
+
+
+
+
+
+
+.about-last-yellow {
+    background-color:#ffc800;
+    margin-top: 20px;
+    border: 7px solid #e9ecef;
+}
+
+.about-list-item-last-content   {
+    color:#fff ;
+    margin: 40px 0 8px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif ;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    text-transform: capitalize;
+    line-height: 28px;
+    
+
+}
+
+.list-left .about-list-content {
+    position: absolute;
+    left: 100px;
+    text-align: right;
+    width: 530px;
+    height: 235px;
+    padding: 0 20px 20px 100px;
+}
+
+.list-right .about-list-content {
+    position: absolute;
+    right: 180px;
+    text-align: left;
+    width: 530px;
+    height: 235px;
+    padding: 0 20px 20px 100px;
+
+}
+
+.about-list-content p {
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    color:#6c757d;
+    font: 500;
+    letter-spacing: 10;
+    line-height: 1.7em;
+    
+    
+}
+
+.fifth-page {
+    background-color:#f8f9fa;
+    padding: 24px 0;
+    text-align: center;
+
+}
+
+.team-members {
+    
+}
+.team-members-container {
+    margin: 0 0 100px;
+    padding: 0 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.team-member-no {
+    flex: auto;
+}
+
+.team-info h2 {
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif ;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+
+}
+
+.team-info p {
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    color:#6c757d;
+    margin: 0 0 64px;
+}
+
+.team-member-image { 
+    width: 224px;
+    height: 224px;
+    border:8px solid #dfe0e1;
+    border-radius:50%;
+    margin:auto;
+}
+
+.team-member-image img {
+    width: 100%;
+    height: 100%;
+    border-radius:50%;
+}
+
+.team-member-info h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #212529;
+    margin: 24px 0 0;
+    font-family: "Montserrat", sans-serif ;
+   
+}
+
+.team-member-info p {
+    font-size: 16px;
+    font-weight: 400;
+    color:#6c757d;
+    margin: 0 0 16px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.team-member-contact div {
+    display: inline;
+    margin: 20px 5px;
+}
+
+.team-member-contact div i {
+    font-size: 2em;
+}
+
+.team-footer {
+    width: 55%;
+    height: 100px;
+    margin: auto;
+}
+
+.team-footer-content {
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    margin: 0 0 16px;
+    color:#6c757d;
+
+}
+
+.last-page {
+    background-color:#212529;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    height: 700px;
+
+}
+
+.last-page-form-heading {
+    text-align: center;
+    position: relative;
+}
+
+.last-page-form-heading h2{
+    margin: 0 0 16px;
+    padding: 80px 0 0 0;
+    font-size:40px ;
+    font-family: "Montserrat", sans-serif ;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.last-page-form-heading p {
+    margin: 0 0 30px ;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    font-weight: 400;
+    color:#6c757d;
+}
+
+.last-page-form-content {
+    position: relative;
+}
+
+.last-page-form-content input {
+    width: 636px;
+    height: 65px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: 40px;
+    border:1px solid red ;
+
+}
+
+.last-page-form-content textarea {
+    width: 636px;
+    height:243px;
+    position: absolute;
+    right: 110px;
+    bottom: 5px;
+    border-radius:7px;
+    border:1px solid red ;
+}
+
+.last-page-form-content input[type=submit] {
+    background-color:#ffc800;
+    color:#ffffff;
+    width: 231px;
+    height: 69px;
+    position: absolute;
+    left: 580px;
+    margin-top: 40px;
+    border:none;
+    font-size:18px;
+    font-family: "Montserrat", sans-serif ;
+    font-weight: 800;
+
+
+}
+
+
+::placeholder {
+    color: #dcdadc;
+    padding: 20px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif ;
+    font-weight: 800;
+    
+    
+}
